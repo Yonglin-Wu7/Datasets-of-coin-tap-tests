@@ -1,6 +1,6 @@
 # Datasets of coin-tap tests
-We do coin-tap tests for three types of bi-layered structures (aluminum bi-layer, polymethyl methacrylate bi-layer, and glass-fiber reinforced polymer bi-layer) to obtain acoustic signals. Then, we constructed this dataset and saved it in pkl file format.
-The dataset is organized in the form of nested dictionaries, with specific levels as follows:
+We do coin-tap tests for three types of bi-layered structures (aluminum bi-layer, polymethyl methacrylate bi-layer, and glass-fiber reinforced polymer bi-layer) to obtain acoustic signals. Then, we constructed these datasets and saved them in pkl file format. For aluminum bi-layer, the dataset file name is' Coin_tap_data_Al. pkl '; for polymethyl methacrylate bi-layer,the dataset file name is' Coin_tap_data_Acrylic. pkl '; for glass-fiber reinforced polymer bi-layer,the dataset file name is' Coin_tap_data_GFRP. pkl '.
+The datasets are organized in the form of nested dictionaries, with specific levels as follows:
 1. Top level key: Material type ('Al ','Acrylic', 'GFRP')
 2. Subkeys: Initial three subsets ('1 ','2','3 ')
 3. Each sample (dictionary structure):
